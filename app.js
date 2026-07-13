@@ -29,6 +29,7 @@ inputElement.addEventListener('input', function() {
     // Create new list container
     const listContainer = document.createElement('div');
     listContainer.setAttribute('class', 'autocomplete-items');
+    listContainer.setAttribute('id', 'autocomplete-list');
     this.parentNode.appendChild(listContainer);
 
     let matches = [];
@@ -69,6 +70,17 @@ inputElement.addEventListener('input', function() {
             });
         }
     }
+
+    // Deduplicate matches by matchText
+    const uniqueMatches = [];
+    const seenMatches = new Set();
+    for (const match of matches) {
+        if (!seenMatches.has(match.matchText)) {
+            seenMatches.add(match.matchText);
+            uniqueMatches.push(match);
+        }
+    }
+    matches = uniqueMatches;
 
     // Sort matches: 
     // 1. Starts with input
@@ -132,6 +144,7 @@ function addActive(items) {
     if (currentFocus >= items.length) currentFocus = 0;
     if (currentFocus < 0) currentFocus = (items.length - 1);
     items[currentFocus].classList.add('active-item');
+    items[currentFocus].scrollIntoView({ block: 'nearest' });
 }
 
 function removeActive(items) {
@@ -173,7 +186,11 @@ function removeDrug(substance) {
 
 function renderSelectedDrugs() {
     if (selectedDrugs.length === 0) {
-        selectedDrugsList.innerHTML = '<p class="empty-state">Noch keine Medikamente ausgewählt.</p>';
+        selectedDrugsList.innerHTML = `
+            <div id="empty-state" class="drug-card empty-state-card">
+                <p>Noch keine Medikamente ausgewählt.</p>
+            </div>
+        `;
         return;
     }
 

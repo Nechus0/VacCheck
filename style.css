@@ -61,7 +61,7 @@ header {
 }
 
 .brand .app-title {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -158,12 +158,20 @@ input[type="text"]::placeholder {
     gap: 16px;
 }
 
-.empty-state {
-    color: var(--grey);
+.empty-state-card {
     text-align: center;
-    padding: 40px 20px;
-    background: transparent;
-    font-size: 13px;
+    border-left: 1px solid var(--line) !important;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.empty-state-card p {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* Card Match */
