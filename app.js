@@ -180,7 +180,7 @@ function addDrug(drug) {
 }
 
 function clearList() {
-    selectedDrugs = [];
+    selectedDrugs.length = 0;
     renderSelectedDrugs();
 }
 
