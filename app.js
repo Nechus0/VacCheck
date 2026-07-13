@@ -28,44 +28,75 @@ inputElement.addEventListener('input', function() {
     listContainer.setAttribute('class', 'autocomplete-items');
     this.parentNode.appendChild(listContainer);
 
+    let matches = [];
+
     for (let i = 0; i < drugsDatabase.length; i++) {
         const drug = drugsDatabase[i];
         
         // Search in substance and brand names
         let matchText = '';
-        if (drug.substance.toLowerCase().includes(val.toLowerCase())) {
+        let isStartsWith = false;
+        let isBrandMatch = false;
+
+        const valLower = val.toLowerCase();
+        const substanceLower = drug.substance.toLowerCase();
+
+        if (substanceLower.includes(valLower)) {
             matchText = drug.substance;
+            if (substanceLower.startsWith(valLower)) {
+                isStartsWith = true;
+            }
         } else {
-            const matchedBrand = drug.brand_names.find(b => b.toLowerCase().includes(val.toLowerCase()));
+            const matchedBrand = drug.brand_names.find(b => b.toLowerCase().includes(valLower));
             if (matchedBrand) {
                 matchText = `${matchedBrand} (${drug.substance})`;
+                isBrandMatch = true;
+                if (matchedBrand.toLowerCase().startsWith(valLower)) {
+                    isStartsWith = true;
+                }
             }
         }
 
         if (matchText) {
-            count++;
-            const item = document.createElement('div');
-            item.setAttribute('class', 'autocomplete-item');
-            
-            // Highlight matching part
-            const regex = new RegExp(`(${val})`, 'gi');
-            item.innerHTML = matchText.replace(regex, "<strong>$1</strong>");
-            
-            if(drug.is_immunosuppressant) {
-                item.innerHTML += ' <span style="color:red; font-size:12px;">(Immunsuppressivum)</span>';
-            }
-
-            item.addEventListener('click', function() {
-                addDrug(drug);
-                inputElement.value = '';
-                closeAllLists();
+            matches.push({
+                drug: drug,
+                matchText: matchText,
+                isStartsWith: isStartsWith,
+                isBrandMatch: isBrandMatch
             });
-
-            listContainer.appendChild(item);
-            
-            // Limit to 10 results
-            if(count >= 10) break;
         }
+    }
+
+    // Sort matches: 
+    // 1. Starts with input
+    // 2. Contains input
+    // Alphabetically within groups
+    matches.sort((a, b) => {
+        if (a.isStartsWith && !b.isStartsWith) return -1;
+        if (!a.isStartsWith && b.isStartsWith) return 1;
+        return a.matchText.localeCompare(b.matchText);
+    });
+
+    // Take top 15 results
+    matches = matches.slice(0, 15);
+
+    for (let i = 0; i < matches.length; i++) {
+        const itemData = matches[i];
+        const drug = itemData.drug;
+        const item = document.createElement('div');
+        item.setAttribute('class', 'autocomplete-item');
+        
+        // Highlight matching part
+        const regex = new RegExp(`(${val})`, 'gi');
+        item.innerHTML = itemData.matchText.replace(regex, "<strong>$1</strong>");
+
+        item.addEventListener('click', function() {
+            addDrug(drug);
+            inputElement.value = '';
+            closeAllLists();
+        });
+
+        listContainer.appendChild(item);
     }
 });
 
@@ -119,8 +150,18 @@ function renderSelectedDrugs() {
 
         let detailsHTML = '';
         if (drug.is_immunosuppressant) {
+            let classHTML = '';
+            if (drug.drug_class) {
+                classHTML = `
+                    <div class="detail-item" style="grid-column: span 2; margin-bottom: 8px;">
+                        <div class="detail-label">Substanzklasse</div>
+                        <div style="font-weight: 500;">${drug.drug_class}</div>
+                    </div>
+                `;
+            }
             detailsHTML = `
                 <div class="drug-details">
+                    ${classHTML}
                     <div class="detail-item">
                         <div class="detail-label">Lebendimpfung</div>
                         <div>${drug.live_vaccine_allowed}</div>
