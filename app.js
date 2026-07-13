@@ -152,10 +152,15 @@ function renderSelectedDrugs() {
         if (drug.is_immunosuppressant) {
             let classHTML = '';
             if (drug.drug_class) {
+                let abstractHTML = '';
+                if (drug.class_abstract) {
+                    abstractHTML = `<div style="font-size: 12px; font-style: italic; color: #666; margin-top: 4px;">${drug.class_abstract}</div>`;
+                }
                 classHTML = `
                     <div class="detail-item" style="grid-column: span 2; margin-bottom: 8px;">
                         <div class="detail-label">Substanzklasse</div>
                         <div style="font-weight: 500;">${drug.drug_class}</div>
+                        ${abstractHTML}
                     </div>
                 `;
             }

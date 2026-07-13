@@ -8,7 +8,8 @@
     "live_vaccine_allowed": "Nein (> 20mg/d)",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Kortikosteroide"
+    "drug_class": "Kortikosteroide",
+    "class_abstract": "Glukokortikoide hemmen die Aktivierung von T- und B-Zellen und reduzieren entzündliche Botenstoffe. Dadurch fehlt dem Körper die nötige Abwehr, um die abgeschwächten Viren eines Lebendimpfstoffs zu kontrollieren."
   },
   {
     "substance": "Inebilizumab",
@@ -19,7 +20,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 6 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)"
+    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)",
+    "class_abstract": "Diese Medikamente zerstören gezielt B-Zellen, die für die Antikörperproduktion verantwortlich sind. Ohne Antikörper kann der Körper die Impfviren nicht effektiv neutralisieren."
   },
   {
     "substance": "Obinutuzumab",
@@ -30,7 +32,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Ja",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)"
+    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)",
+    "class_abstract": "Diese Medikamente zerstören gezielt B-Zellen, die für die Antikörperproduktion verantwortlich sind. Ohne Antikörper kann der Körper die Impfviren nicht effektiv neutralisieren."
   },
   {
     "substance": "Ocrelizumab",
@@ -41,7 +44,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Ca. 18 Monate nach Therapieende",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)"
+    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)",
+    "class_abstract": "Diese Medikamente zerstören gezielt B-Zellen, die für die Antikörperproduktion verantwortlich sind. Ohne Antikörper kann der Körper die Impfviren nicht effektiv neutralisieren."
   },
   {
     "substance": "Ofatumumab",
@@ -53,7 +57,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Ca. 10 Monate nach Therapieende",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)"
+    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)",
+    "class_abstract": "Diese Medikamente zerstören gezielt B-Zellen, die für die Antikörperproduktion verantwortlich sind. Ohne Antikörper kann der Körper die Impfviren nicht effektiv neutralisieren."
   },
   {
     "substance": "Rituximab",
@@ -66,7 +71,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 12 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)"
+    "drug_class": "B-Zell-depletierende Substanzen (anti-CD19/anti-CD20)",
+    "class_abstract": "Diese Medikamente zerstören gezielt B-Zellen, die für die Antikörperproduktion verantwortlich sind. Ohne Antikörper kann der Körper die Impfviren nicht effektiv neutralisieren."
   },
   {
     "substance": "Alemtuzumab",
@@ -78,7 +84,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 12 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "CD52-Rezeptor-Antagonist"
+    "drug_class": "CD52-Rezeptor-Antagonist",
+    "class_abstract": "Führt zu einem massiven Abbau von zirkulierenden T- und B-Zellen. Dieses stark geschwächte Immunsystem ist den vermehrungsfähigen Viren eines Lebendimpfstoffs schutzlos ausgeliefert."
   },
   {
     "substance": "Belimumab",
@@ -89,7 +96,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Inhibitor des B-Zell-Aktivierungsfaktors"
+    "drug_class": "Inhibitor des B-Zell-Aktivierungsfaktors",
+    "class_abstract": "Hemmt das Überleben und die Entwicklung von B-Zellen. Dies schwächt die Immunantwort und die Antikörperproduktion, sodass Lebendimpfviren ein Risiko darstellen."
   },
   {
     "substance": "Adalimumab",
@@ -102,7 +110,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-TNF"
+    "drug_class": "Anti-TNF",
+    "class_abstract": "Blockiert den Tumornekrosefaktor (TNF), einen zentralen Botenstoff der Entzündungsreaktion und zellulären Abwehr. Bei einer Lebendimpfung droht eine ungebremste Virusvermehrung im Gewebe."
   },
   {
     "substance": "Certolizumab",
@@ -113,7 +122,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-TNF"
+    "drug_class": "Anti-TNF",
+    "class_abstract": "Blockiert den Tumornekrosefaktor (TNF), einen zentralen Botenstoff der Entzündungsreaktion und zellulären Abwehr. Bei einer Lebendimpfung droht eine ungebremste Virusvermehrung im Gewebe."
   },
   {
     "substance": "Etanercept",
@@ -125,7 +135,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-TNF"
+    "drug_class": "Anti-TNF",
+    "class_abstract": "Blockiert den Tumornekrosefaktor (TNF), einen zentralen Botenstoff der Entzündungsreaktion und zellulären Abwehr. Bei einer Lebendimpfung droht eine ungebremste Virusvermehrung im Gewebe."
   },
   {
     "substance": "Golimumab",
@@ -136,7 +147,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-TNF"
+    "drug_class": "Anti-TNF",
+    "class_abstract": "Blockiert den Tumornekrosefaktor (TNF), einen zentralen Botenstoff der Entzündungsreaktion und zellulären Abwehr. Bei einer Lebendimpfung droht eine ungebremste Virusvermehrung im Gewebe."
   },
   {
     "substance": "Infliximab",
@@ -149,7 +161,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-TNF"
+    "drug_class": "Anti-TNF",
+    "class_abstract": "Blockiert den Tumornekrosefaktor (TNF), einen zentralen Botenstoff der Entzündungsreaktion und zellulären Abwehr. Bei einer Lebendimpfung droht eine ungebremste Virusvermehrung im Gewebe."
   },
   {
     "substance": "Anifrolumab",
@@ -160,7 +173,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IFN-1R"
+    "drug_class": "Anti-IFN-1R",
+    "class_abstract": "Blockiert Interferon-Rezeptoren, die essenziell für die unmittelbare antivirale Abwehr sind. Ohne dieses Alarmsystem können sich Impfviren unkontrolliert ausbreiten."
   },
   {
     "substance": "Anakinra",
@@ -171,7 +185,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-1"
+    "drug_class": "Anti-IL-1",
+    "class_abstract": "Hemmt Interleukin-1, einen wichtigen Botenstoff der angeborenen Immunabwehr. Die verzögerte Immunreaktion kann die Kontrolle des Lebendimpfstoffs beeinträchtigen."
   },
   {
     "substance": "Canakinumab",
@@ -182,7 +197,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-1"
+    "drug_class": "Anti-IL-1",
+    "class_abstract": "Hemmt Interleukin-1, einen wichtigen Botenstoff der angeborenen Immunabwehr. Die verzögerte Immunreaktion kann die Kontrolle des Lebendimpfstoffs beeinträchtigen."
   },
   {
     "substance": "Basiliximab",
@@ -193,7 +209,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-IL-2R"
+    "drug_class": "Anti-IL-2R",
+    "class_abstract": "Blockiert die Aktivierung und Vermehrung von T-Zellen. Ohne eine effektive T-Zell-Antwort kann der Körper intrazelluläre Erreger (wie Viren in Lebendimpfstoffen) nicht bekämpfen."
   },
   {
     "substance": "Dupilumab",
@@ -204,7 +221,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-4/-13"
+    "drug_class": "Anti-IL-4/-13",
+    "class_abstract": "Greift in Entzündungswege ein, die vor allem bei allergischem Asthma und Neurodermitis wichtig sind. Obwohl das Risiko geringer als bei anderen Immunsuppressiva ist, gilt bei Lebendimpfungen aus Sicherheitsgründen oft ein genereller Vorbehalt."
   },
   {
     "substance": "Mepolizumab",
@@ -215,7 +233,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-IL-5"
+    "drug_class": "Anti-IL-5",
+    "class_abstract": "Richtet sich spezifisch gegen Eosinophile (Zellen der allergischen Entzündung). Lebendimpfungen sind hier laut Zulassung teils möglich, jedoch ist aufgrund der Immunmodulation Vorsicht geboten."
   },
   {
     "substance": "Benralizumab",
@@ -226,7 +245,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-IL-5"
+    "drug_class": "Anti-IL-5",
+    "class_abstract": "Richtet sich spezifisch gegen Eosinophile (Zellen der allergischen Entzündung). Lebendimpfungen sind hier laut Zulassung teils möglich, jedoch ist aufgrund der Immunmodulation Vorsicht geboten."
   },
   {
     "substance": "Siltuximab",
@@ -237,7 +257,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 4 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-IL-6"
+    "drug_class": "Anti-IL-6",
+    "class_abstract": "Hemmt Interleukin-6, einen zentralen Entzündungsbotenstoff. Dies dämpft die Akut-Phase-Reaktion und die T-Zell-Aktivierung, was die Abwehr gegen Impfviren schwächt."
   },
   {
     "substance": "Tocilizumab",
@@ -248,7 +269,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-6R"
+    "drug_class": "Anti-IL-6R",
+    "class_abstract": "Blockiert den Rezeptor für Interleukin-6, was die Entzündungsreaktion und die Aktivierung von Immunzellen stark unterdrückt, sodass Lebendimpfviren nicht sicher kontrolliert werden können."
   },
   {
     "substance": "Sarilumab",
@@ -259,7 +281,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Anti-IL-6R"
+    "drug_class": "Anti-IL-6R",
+    "class_abstract": "Blockiert den Rezeptor für Interleukin-6, was die Entzündungsreaktion und die Aktivierung von Immunzellen stark unterdrückt, sodass Lebendimpfviren nicht sicher kontrolliert werden können."
   },
   {
     "substance": "Satralizumab",
@@ -270,7 +293,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Wohl ausreichend",
-    "drug_class": "Anti-IL-6R"
+    "drug_class": "Anti-IL-6R",
+    "class_abstract": "Blockiert den Rezeptor für Interleukin-6, was die Entzündungsreaktion und die Aktivierung von Immunzellen stark unterdrückt, sodass Lebendimpfviren nicht sicher kontrolliert werden können."
   },
   {
     "substance": "Ustekinumab",
@@ -281,7 +305,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 15 Wochen",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-12 und -23"
+    "drug_class": "Anti-IL-12 und -23",
+    "class_abstract": "Hemmen Botenstoffe, die essenziell für die T-Zell-Aktivierung sind. Eine abgeschwächte zelluläre Abwehr kann zu einer unkontrollierten Vermehrung des Impfvirus führen."
   },
   {
     "substance": "Lebrikizumab",
@@ -292,7 +317,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-13"
+    "drug_class": "Anti-IL-13",
+    "class_abstract": "Blockiert spezifische Entzündungswege (oft bei atopischer Dermatitis). Aufgrund des Eingriffs in das Immunsystem ist bei Lebendimpfungen Vorsicht geboten."
   },
   {
     "substance": "Tralokinumab",
@@ -303,7 +329,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-13"
+    "drug_class": "Anti-IL-13",
+    "class_abstract": "Blockiert spezifische Entzündungswege (oft bei atopischer Dermatitis). Aufgrund des Eingriffs in das Immunsystem ist bei Lebendimpfungen Vorsicht geboten."
   },
   {
     "substance": "Bimekizumab",
@@ -314,7 +341,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-17"
+    "drug_class": "Anti-IL-17",
+    "class_abstract": "Hemmt Interleukin-17, was besonders die Abwehr an den Schleimhäuten und der Haut schwächt. Lebendimpfungen sind aufgrund des allgemeinen immunsuppressiven Effekts kontraindiziert."
   },
   {
     "substance": "Brodalumab",
@@ -325,7 +353,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-17"
+    "drug_class": "Anti-IL-17",
+    "class_abstract": "Hemmt Interleukin-17, was besonders die Abwehr an den Schleimhäuten und der Haut schwächt. Lebendimpfungen sind aufgrund des allgemeinen immunsuppressiven Effekts kontraindiziert."
   },
   {
     "substance": "Ixekizumab",
@@ -336,7 +365,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-17"
+    "drug_class": "Anti-IL-17",
+    "class_abstract": "Hemmt Interleukin-17, was besonders die Abwehr an den Schleimhäuten und der Haut schwächt. Lebendimpfungen sind aufgrund des allgemeinen immunsuppressiven Effekts kontraindiziert."
   },
   {
     "substance": "Secukinumab",
@@ -347,7 +377,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-IL-17"
+    "drug_class": "Anti-IL-17",
+    "class_abstract": "Hemmt Interleukin-17, was besonders die Abwehr an den Schleimhäuten und der Haut schwächt. Lebendimpfungen sind aufgrund des allgemeinen immunsuppressiven Effekts kontraindiziert."
   },
   {
     "substance": "Guselkumab",
@@ -358,7 +389,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IL-23"
+    "drug_class": "Anti-IL-23",
+    "class_abstract": "Unterdrückt die Aktivierung bestimmter T-Zellen. Die unzureichende zelluläre Immunantwort birgt das Risiko, dass der Körper mit dem Impfvirus nicht fertig wird."
   },
   {
     "substance": "Mirikizumab",
@@ -369,7 +401,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IL-23"
+    "drug_class": "Anti-IL-23",
+    "class_abstract": "Unterdrückt die Aktivierung bestimmter T-Zellen. Die unzureichende zelluläre Immunantwort birgt das Risiko, dass der Körper mit dem Impfvirus nicht fertig wird."
   },
   {
     "substance": "Risankizumab",
@@ -380,7 +413,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 21 Wochen",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IL-23"
+    "drug_class": "Anti-IL-23",
+    "class_abstract": "Unterdrückt die Aktivierung bestimmter T-Zellen. Die unzureichende zelluläre Immunantwort birgt das Risiko, dass der Körper mit dem Impfvirus nicht fertig wird."
   },
   {
     "substance": "Tildrakizumab",
@@ -391,7 +425,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 17 Wochen",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IL-23"
+    "drug_class": "Anti-IL-23",
+    "class_abstract": "Unterdrückt die Aktivierung bestimmter T-Zellen. Die unzureichende zelluläre Immunantwort birgt das Risiko, dass der Körper mit dem Impfvirus nicht fertig wird."
   },
   {
     "substance": "Dimethylfumarat",
@@ -403,7 +438,8 @@
     "live_vaccine_allowed": "Eingeschränkt",
     "therapy_pause_needed": "Eingeschränkt",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen"
+    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen",
+    "class_abstract": "Hemmen die Vermehrung von T- und B-Zellen oder zerstören sie. Der resultierende Mangel an Abwehrzellen erhöht das Risiko einer impfinduzierten Infektion erheblich."
   },
   {
     "substance": "Diroximelfumarat",
@@ -414,7 +450,8 @@
     "live_vaccine_allowed": "Eingeschränkt",
     "therapy_pause_needed": "Eingeschränkt",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen"
+    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen",
+    "class_abstract": "Hemmen die Vermehrung von T- und B-Zellen oder zerstören sie. Der resultierende Mangel an Abwehrzellen erhöht das Risiko einer impfinduzierten Infektion erheblich."
   },
   {
     "substance": "Leflunomid",
@@ -425,7 +462,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 6 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen"
+    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen",
+    "class_abstract": "Hemmen die Vermehrung von T- und B-Zellen oder zerstören sie. Der resultierende Mangel an Abwehrzellen erhöht das Risiko einer impfinduzierten Infektion erheblich."
   },
   {
     "substance": "Teriflunomid",
@@ -436,7 +474,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 6 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen"
+    "drug_class": "Peripher wirksame B- und T-Zell-depletierende Substanzen",
+    "class_abstract": "Hemmen die Vermehrung von T- und B-Zellen oder zerstören sie. Der resultierende Mangel an Abwehrzellen erhöht das Risiko einer impfinduzierten Infektion erheblich."
   },
   {
     "substance": "Etrasimod",
@@ -447,7 +486,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "2 Wochen",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "S1P-Rezeptor-Modulator"
+    "drug_class": "S1P-Rezeptor-Modulator",
+    "class_abstract": "Sperren Lymphozyten in den Lymphknoten ein, sodass sie nicht ins periphere Blut gelangen können. Die im Gewebe fehlenden Abwehrzellen können die Impfviren nicht bekämpfen."
   },
   {
     "substance": "Fingolimod",
@@ -458,7 +498,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "S1P-Rezeptor-Modulator"
+    "drug_class": "S1P-Rezeptor-Modulator",
+    "class_abstract": "Sperren Lymphozyten in den Lymphknoten ein, sodass sie nicht ins periphere Blut gelangen können. Die im Gewebe fehlenden Abwehrzellen können die Impfviren nicht bekämpfen."
   },
   {
     "substance": "Ozanimod",
@@ -469,7 +510,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "S1P-Rezeptor-Modulator"
+    "drug_class": "S1P-Rezeptor-Modulator",
+    "class_abstract": "Sperren Lymphozyten in den Lymphknoten ein, sodass sie nicht ins periphere Blut gelangen können. Die im Gewebe fehlenden Abwehrzellen können die Impfviren nicht bekämpfen."
   },
   {
     "substance": "Siponimod",
@@ -480,7 +522,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "S1P-Rezeptor-Modulator"
+    "drug_class": "S1P-Rezeptor-Modulator",
+    "class_abstract": "Sperren Lymphozyten in den Lymphknoten ein, sodass sie nicht ins periphere Blut gelangen können. Die im Gewebe fehlenden Abwehrzellen können die Impfviren nicht bekämpfen."
   },
   {
     "substance": "Glatirameracetat",
@@ -492,7 +535,8 @@
     "live_vaccine_allowed": "Eingeschränkt",
     "therapy_pause_needed": "Eingeschränkt",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Interferon beta",
@@ -505,7 +549,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Peginterferon alfa-2a",
@@ -516,7 +561,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Sulfasalazin",
@@ -528,7 +574,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Mesalazin",
@@ -541,7 +588,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Mifamurtid",
@@ -552,7 +600,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Immunstimulanzien/-modulatoren"
+    "drug_class": "Immunstimulanzien/-modulatoren",
+    "class_abstract": "Verändern tiefgreifend die Balance der Immunantwort. Je nach Wirkstoff und individueller Reaktion kann das Immunsystem die Lebendimpfviren nicht adäquat kontrollieren."
   },
   {
     "substance": "Omalizumab",
@@ -563,7 +612,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Anti-IgE"
+    "drug_class": "Anti-IgE",
+    "class_abstract": "Blockiert IgE-Antikörper, um allergische Reaktionen zu verhindern. Lebendimpfungen sind hier grundsätzlich erlaubt, da die generelle antivirale Abwehr intakt bleibt."
   },
   {
     "substance": "Nipocalimab",
@@ -572,7 +622,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Wochen",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Fc-Rezeptor-Blocker"
+    "drug_class": "Fc-Rezeptor-Blocker",
+    "class_abstract": "Beschleunigen den Abbau von Antikörpern (IgG) im Blut. Dies kann die körpereigene Abwehr schwächen und die Kontrolle von Lebendimpfviren gefährden."
   },
   {
     "substance": "Rozanolixizumab",
@@ -583,7 +634,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Fc-Rezeptor-Blocker"
+    "drug_class": "Fc-Rezeptor-Blocker",
+    "class_abstract": "Beschleunigen den Abbau von Antikörpern (IgG) im Blut. Dies kann die körpereigene Abwehr schwächen und die Kontrolle von Lebendimpfviren gefährden."
   },
   {
     "substance": "Cyclophosphamid",
@@ -594,7 +646,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Dacarbazin",
@@ -605,7 +658,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Ifosfamid",
@@ -616,7 +670,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Trofosfamid",
@@ -627,7 +682,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Mitoxantron",
@@ -638,7 +694,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Cladribin",
@@ -650,7 +707,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Ausreichend bis Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Irinotecan",
@@ -661,7 +719,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Zytostatika"
+    "drug_class": "Zytostatika",
+    "class_abstract": "Zerstören sich schnell teilende Zellen und verursachen eine ausgeprägte Leukopenie (Mangel an weißen Blutkörperchen). Dem Körper fehlt jegliche Grundlage, um Impfviren abzuwehren."
   },
   {
     "substance": "Azathioprin",
@@ -673,7 +732,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Belatacept",
@@ -684,7 +744,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Ciclosporin",
@@ -696,7 +757,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Voclosporin",
@@ -707,7 +769,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "6-Mercaptopurin",
@@ -718,7 +781,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Tacrolimus",
@@ -731,7 +795,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Everolimus",
@@ -743,7 +808,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Mycophenolat-Mofetil",
@@ -754,7 +820,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Mycophenolsäure",
@@ -765,20 +832,23 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Methotrexat",
     "brand_names": [
       "Lantarel",
-      "Metex",
-      "Metoject"
+      "MTX",
+      "Metoject",
+      "Metex"
     ],
     "is_immunosuppressant": true,
     "live_vaccine_allowed": "Eingeschränkt (Niedrigdosis) / Nein (Hochdosis)",
     "therapy_pause_needed": "> 1 Monat (Niedrigdosis) / > 2 Monate (Hochdosis)",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Organabstoßung/Antiproliferativ"
+    "drug_class": "Organabstoßung/Antiproliferativ",
+    "class_abstract": "Hemmen die Zellteilung und die T-Zell-Aktivierung massiv, um eine Organabstoßung zu verhindern. Dieses künstlich unterdrückte Immunsystem ist Lebendimpfviren schutzlos ausgeliefert."
   },
   {
     "substance": "Abatacept",
@@ -789,7 +859,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "T-Lymphozyten-Kostimulatoren-Inhibitor"
+    "drug_class": "T-Lymphozyten-Kostimulatoren-Inhibitor",
+    "class_abstract": "Verhindert das notwendige 'Zweite Signal' zur Aktivierung von T-Zellen. Ohne aktivierte T-Zellen können Viren nicht eliminiert werden."
   },
   {
     "substance": "Natalizumab",
@@ -800,7 +871,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 3 Monate",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Interaktionsinhibitor von VCAM-1"
+    "drug_class": "Interaktionsinhibitor von VCAM-1",
+    "class_abstract": "Verhindert, dass Immunzellen aus den Blutgefäßen in das Gewebe (insbesondere das ZNS) einwandern. Eine lokale Immunabwehr gegen Impfviren ist dadurch gestört."
   },
   {
     "substance": "Vedolizumab",
@@ -811,7 +883,8 @@
     "live_vaccine_allowed": "Eingeschränkt",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Intestinaler Integrin-Antagonist"
+    "drug_class": "Intestinaler Integrin-Antagonist",
+    "class_abstract": "Verhindert das Einwandern von T-Zellen in den Darm. Systemische Lebendimpfungen (z.B. Gelbfieber) sind zwar teilweise möglich, orale Impfungen (z.B. Cholera, Typhus) können jedoch unwirksam sein."
   },
   {
     "substance": "Baricitinib",
@@ -822,7 +895,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Filgotinib",
@@ -833,7 +907,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Ritlecitinib",
@@ -844,7 +919,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Tofacitinib",
@@ -855,7 +931,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 2 Monate",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Upadacitinib",
@@ -866,7 +943,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Ja",
     "immune_response_dead_vaccine": "Vermindert",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Deucravacitinib",
@@ -877,7 +955,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "> 1 Monat",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Januskinase (JAK-)Inhibitoren"
+    "drug_class": "Januskinase (JAK-)Inhibitoren",
+    "class_abstract": "Blockieren intrazelluläre Signalwege (JAK/STAT) für viele verschiedene Zytokine, was die Immunantwort sehr breit unterdrückt und die rasche Abwehr von Impfviren verhindert."
   },
   {
     "substance": "Apremilast",
@@ -888,7 +967,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Anti-PDE4"
+    "drug_class": "Anti-PDE4",
+    "class_abstract": "Wirkt entzündungshemmend durch Erhöhung des intrazellulären cAMP. Lebendimpfungen sind hier meistens ausreichend sicher, aber individuelle ärztliche Rücksprache ist ratsam."
   },
   {
     "substance": "Eculizumab",
@@ -899,7 +979,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Inhibitor des Komplementproteins C5"
+    "drug_class": "Inhibitor des Komplementproteins C5",
+    "class_abstract": "Blockiert das Komplementsystem, das für die frühe Zerstörung von Erregern wichtig ist. Dies erhöht vor allem das Risiko für bakterielle Infektionen, beeinträchtigt aber auch die allgemeine Immunkontrolle."
   },
   {
     "substance": "Crovalimab",
@@ -908,7 +989,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Inhibitor des Komplementproteins C5"
+    "drug_class": "Inhibitor des Komplementproteins C5",
+    "class_abstract": "Blockiert das Komplementsystem, das für die frühe Zerstörung von Erregern wichtig ist. Dies erhöht vor allem das Risiko für bakterielle Infektionen, beeinträchtigt aber auch die allgemeine Immunkontrolle."
   },
   {
     "substance": "Ravulizumab",
@@ -919,7 +1001,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Inhibitor des Komplementproteins C5"
+    "drug_class": "Inhibitor des Komplementproteins C5",
+    "class_abstract": "Blockiert das Komplementsystem, das für die frühe Zerstörung von Erregern wichtig ist. Dies erhöht vor allem das Risiko für bakterielle Infektionen, beeinträchtigt aber auch die allgemeine Immunkontrolle."
   },
   {
     "substance": "Zilucoplan",
@@ -930,7 +1013,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Inhibitor des Komplementproteins C5"
+    "drug_class": "Inhibitor des Komplementproteins C5",
+    "class_abstract": "Blockiert das Komplementsystem, das für die frühe Zerstörung von Erregern wichtig ist. Dies erhöht vor allem das Risiko für bakterielle Infektionen, beeinträchtigt aber auch die allgemeine Immunkontrolle."
   },
   {
     "substance": "Avacopan",
@@ -941,7 +1025,8 @@
     "live_vaccine_allowed": "Keine Daten",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Inhibitor des Komplementproteins C5"
+    "drug_class": "Inhibitor des Komplementproteins C5",
+    "class_abstract": "Blockiert das Komplementsystem, das für die frühe Zerstörung von Erregern wichtig ist. Dies erhöht vor allem das Risiko für bakterielle Infektionen, beeinträchtigt aber auch die allgemeine Immunkontrolle."
   },
   {
     "substance": "Pegcetacoplan",
@@ -953,7 +1038,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Inhibitor des Komplementproteins C3"
+    "drug_class": "Inhibitor des Komplementproteins C3",
+    "class_abstract": "Hemmt die zentrale Komplementkaskade, wodurch Erreger nicht mehr effektiv für die Zerstörung markiert werden. Die Abwehr von Lebendimpfviren kann eingeschränkt sein."
   },
   {
     "substance": "Sutimlimab",
@@ -964,7 +1050,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Inhibitor des Komplementproteins C1s"
+    "drug_class": "Inhibitor des Komplementproteins C1s",
+    "class_abstract": "Blockiert den klassischen Weg des Komplementsystems. Wie bei anderen Komplementinhibitoren kann die Immunantwort auf den Lebendimpfstoff gestört sein."
   },
   {
     "substance": "Iptacopan",
@@ -975,7 +1062,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Komplementinhibitor Faktor B"
+    "drug_class": "Komplementinhibitor Faktor B",
+    "class_abstract": "Blockiert den alternativen Weg des Komplementsystems. Erreger können dadurch in der Frühphase der Infektion schlechter abgewehrt werden."
   },
   {
     "substance": "Danicopan",
@@ -986,7 +1074,8 @@
     "live_vaccine_allowed": "Ja",
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Komplementinhibitor Faktor D"
+    "drug_class": "Komplementinhibitor Faktor D",
+    "class_abstract": "Hemmt den alternativen Komplementweg. Die reduzierte Immunantwort kann zu einer verminderten Kontrolle des Impfvirus führen."
   },
   {
     "substance": "Pirfenidon",
@@ -997,7 +1086,8 @@
     "live_vaccine_allowed": "Keine Daten",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Keine Daten",
-    "drug_class": "Andere Immunsuppressiva/immunmod. Therapeutika"
+    "drug_class": "Andere Immunsuppressiva/immunmod. Therapeutika",
+    "class_abstract": "Unterdrücken oder verändern die körpereigene Abwehr auf zellulärer Ebene. Die mangelhafte Immunkontrolle birgt das Risiko schwerer Reaktionen auf Lebendimpfstoffe."
   },
   {
     "substance": "Efgartigimod alfa",
@@ -1008,7 +1098,8 @@
     "live_vaccine_allowed": "Nein",
     "therapy_pause_needed": "Keine Daten",
     "immune_response_dead_vaccine": "Ausreichend",
-    "drug_class": "Andere Immunsuppressiva/immunmod. Therapeutika"
+    "drug_class": "Andere Immunsuppressiva/immunmod. Therapeutika",
+    "class_abstract": "Unterdrücken oder verändern die körpereigene Abwehr auf zellulärer Ebene. Die mangelhafte Immunkontrolle birgt das Risiko schwerer Reaktionen auf Lebendimpfstoffe."
   },
   {
     "substance": "Atovaquon, Proguanil",
@@ -1026,8 +1117,10 @@
     "substance": "Ibuprofen",
     "brand_names": [
       "Ibuprofen",
-      "Dolormin",
-      "Nurofen"
+      "Nurofen",
+      "Ibuflam",
+      "Ibu",
+      "Dolormin"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja",
@@ -1037,9 +1130,10 @@
   {
     "substance": "Paracetamol",
     "brand_names": [
-      "Paracetamol",
+      "Thomapyrin",
       "Ben-u-ron",
-      "Thomapyrin"
+      "Benuron",
+      "Paracetamol"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja",
@@ -1166,60 +1260,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "L02BX53"
-  },
-  {
-    "substance": "Abrechnung von Buprenorphin- oder Subutex-Einzeldosen",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90OA01"
-  },
-  {
-    "substance": "Abrechnung von Buprenorphin-/Naloxon-Einzeldosen",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90OA02"
-  },
-  {
-    "substance": "Abrechnung von Cannabinoid-haltigen Stoffen oder \nFertigarzneimitteln in Zubereitungen",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90RA02"
-  },
-  {
-    "substance": "Abrechnung von Cannabis-Blüten, unverändert oder \nin Zubereitungen",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90RA01"
-  },
-  {
-    "substance": "Abrechnung von Medizinalcannabis, unverändert oder \nin Zubereitungen",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90RA03"
-  },
-  {
-    "substance": "Abrechnung von Morphin (Take-Home)",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90OA03"
   },
   {
     "substance": "Abrechnungsfähige Beschaffungskosten",
@@ -1556,7 +1596,12 @@
   },
   {
     "substance": "Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1565,7 +1610,12 @@
   },
   {
     "substance": "Acetylsalicylsäure, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1574,7 +1624,12 @@
   },
   {
     "substance": "Acetylsalicylsäure, Kombinationen exkl. Psycholeptika",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1583,7 +1638,12 @@
   },
   {
     "substance": "Acetylsalicylsäure, Kombinationen mit Protonenpumpenhemmern",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1592,7 +1652,12 @@
   },
   {
     "substance": "Acetylsalicylsäure, Kombinationen mit Psycholeptika",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1601,7 +1666,12 @@
   },
   {
     "substance": "Acetylsalicylsäure und Corticosteroide",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1610,7 +1680,12 @@
   },
   {
     "substance": "Acetylsalicylsäure und Esomeprazol",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -1619,7 +1694,12 @@
   },
   {
     "substance": "Acetylsalicylsäure und Pseudoephedrin",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -2168,7 +2248,12 @@
   },
   {
     "substance": "Alendronsäure, Calcium und Colecalciferol, Sequenzialpräparate",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -2186,7 +2271,12 @@
   },
   {
     "substance": "Alendronsäure und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -2339,7 +2429,9 @@
   },
   {
     "substance": "Aliskiren, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -2357,7 +2449,9 @@
   },
   {
     "substance": "Aliskiren und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -3763,7 +3857,12 @@
   },
   {
     "substance": "Andere Calciumsalze und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -3877,24 +3976,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "G04BC50"
-  },
-  {
-    "substance": "Andere Hilfsmittel ohne Pharmazentralnummer/Hilfsmittelnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V07AI01"
-  },
-  {
-    "substance": "Andere Hilfsmittel ohne Pharmazentralnummer/Hilfsmittel-\nnummer, die im Zusammenhang mit einer individuell \nhergestellten parenteralen Lösung abgegeben werden",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V07AI02"
   },
   {
     "substance": "Andere kurzwirksame Sulfonamide, Kombinationen",
@@ -5461,7 +5542,12 @@
   },
   {
     "substance": "Atorvastatin, Acetylsalicylsäure und Perindopril",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -5470,7 +5556,12 @@
   },
   {
     "substance": "Atorvastatin, Acetylsalicylsäure und Ramipril",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -5506,7 +5597,12 @@
   },
   {
     "substance": "Atorvastatin und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -6541,7 +6637,9 @@
   },
   {
     "substance": "Benazepril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -7803,7 +7901,12 @@
   },
   {
     "substance": "Bisoprolol und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -7821,7 +7924,9 @@
   },
   {
     "substance": "Bisoprolol und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -8052,15 +8157,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "B05AX03"
-  },
-  {
-    "substance": "Blutplasma ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX43"
   },
   {
     "substance": "Blut-Testzone",
@@ -9432,7 +9528,12 @@
   },
   {
     "substance": "Calciumcarbonat und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9441,7 +9542,12 @@
   },
   {
     "substance": "Calciumcarbonat und Colecalciferol, \nKombinationen mit anderen Mitteln",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9792,7 +9898,9 @@
   },
   {
     "substance": "Candesartan, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9828,7 +9936,9 @@
   },
   {
     "substance": "Candesartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -10003,7 +10113,9 @@
   },
   {
     "substance": "Captopril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -12435,7 +12547,9 @@
   },
   {
     "substance": "Cilazapril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13308,7 +13422,12 @@
   },
   {
     "substance": "Clopidogrel und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13470,7 +13589,9 @@
   },
   {
     "substance": "(57Co)Cobaltcyanocobalamin",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13479,7 +13600,9 @@
   },
   {
     "substance": "(58Co)Cobaltcyanocobalamin",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13569,7 +13692,12 @@
   },
   {
     "substance": "Codein und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13587,7 +13715,9 @@
   },
   {
     "substance": "Codein und Diclofenac",
-    "brand_names": [],
+    "brand_names": [
+      "Voltaren"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13596,7 +13726,10 @@
   },
   {
     "substance": "Codein und Ibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13605,7 +13738,9 @@
   },
   {
     "substance": "Codein und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13677,7 +13812,12 @@
   },
   {
     "substance": "Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13686,7 +13826,12 @@
   },
   {
     "substance": "Colecalciferol, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13695,7 +13840,12 @@
   },
   {
     "substance": "Colecalciferol, Kombinationen mit Natriumfluorid",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -14095,7 +14245,9 @@
   },
   {
     "substance": "Cyanocobalamin",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -14104,7 +14256,9 @@
   },
   {
     "substance": "Cyanocobalamin, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -14113,7 +14267,9 @@
   },
   {
     "substance": "Cyanocobalamin-Tannin-Komplex",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -15568,7 +15724,10 @@
   },
   {
     "substance": "Dexibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -15973,7 +16132,9 @@
   },
   {
     "substance": "Diclofenac",
-    "brand_names": [],
+    "brand_names": [
+      "Voltaren"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -15982,7 +16143,9 @@
   },
   {
     "substance": "Diclofenac, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Voltaren"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -15991,7 +16154,9 @@
   },
   {
     "substance": "Diclofenac und Antiinfektiva",
-    "brand_names": [],
+    "brand_names": [
+      "Voltaren"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -16000,7 +16165,9 @@
   },
   {
     "substance": "Diclofenac und Omeprazol",
-    "brand_names": [],
+    "brand_names": [
+      "Voltaren"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -16414,7 +16581,12 @@
   },
   {
     "substance": "Dihydrocodein und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -16432,7 +16604,9 @@
   },
   {
     "substance": "Dihydrocodein und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -17226,7 +17400,12 @@
   },
   {
     "substance": "Dipyridamol und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -19253,7 +19432,9 @@
   },
   {
     "substance": "Enalapril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -19788,7 +19969,9 @@
   },
   {
     "substance": "Eprosartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -20082,15 +20265,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "B05AX01"
-  },
-  {
-    "substance": "Erythrozyten ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX41"
   },
   {
     "substance": "Escherichia coli",
@@ -23174,7 +23348,9 @@
   },
   {
     "substance": "Fosinopril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -23866,15 +24042,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "V70XA04"
-  },
-  {
-    "substance": "Gefäße und Behältnisse ohne PZN",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V70XA02"
   },
   {
     "substance": "Gefitinib",
@@ -24716,15 +24883,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "B05AX05"
-  },
-  {
-    "substance": "Granulozyten ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX45"
   },
   {
     "substance": "Gräserpollen",
@@ -25811,7 +25969,9 @@
   },
   {
     "substance": "Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25820,7 +25980,9 @@
   },
   {
     "substance": "Hydrochlorothiazid, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25829,7 +25991,9 @@
   },
   {
     "substance": "Hydrochlorothiazid und Amilorid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25838,7 +26002,9 @@
   },
   {
     "substance": "Hydrochlorothiazid und Kalium",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25847,7 +26013,9 @@
   },
   {
     "substance": "Hydrochlorothiazid und Kalium sparende Mittel",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25856,7 +26024,9 @@
   },
   {
     "substance": "Hydrochlorothiazid und Triamteren",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25874,7 +26044,10 @@
   },
   {
     "substance": "Hydrocodon und Ibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25883,7 +26056,9 @@
   },
   {
     "substance": "Hydrocodon und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -26072,7 +26247,9 @@
   },
   {
     "substance": "Hydroxocobalamin",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -26081,7 +26258,9 @@
   },
   {
     "substance": "Hydroxocobalamin, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Vitamin B12"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -26351,7 +26530,12 @@
   },
   {
     "substance": "Ibandronsäure, Calcium und Colecalciferol, Sequenzialpräparate",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -26369,7 +26553,12 @@
   },
   {
     "substance": "Ibandronsäure und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -26425,7 +26614,10 @@
   },
   {
     "substance": "Ibuprofen, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -28019,7 +28211,9 @@
   },
   {
     "substance": "Irbesartan, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -28046,7 +28240,9 @@
   },
   {
     "substance": "Irbesartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -30345,15 +30541,6 @@
     "atc_code": "B05AX06"
   },
   {
-    "substance": "Leukozyten ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX46"
-  },
-  {
     "substance": "Leukozyten-Testzone",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -30733,7 +30920,11 @@
   },
   {
     "substance": "Levothyroxin-Natrium",
-    "brand_names": [],
+    "brand_names": [
+      "Euthyrox",
+      "Levothyroxin",
+      "L-Thyroxin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -30742,7 +30933,11 @@
   },
   {
     "substance": "Levothyroxin-Natrium und Iod-Verbindungen",
-    "brand_names": [],
+    "brand_names": [
+      "Euthyrox",
+      "Levothyroxin",
+      "L-Thyroxin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -30793,15 +30988,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "C08EX01"
-  },
-  {
-    "substance": "Lieferengpass",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V90FG02"
   },
   {
     "substance": "Lifileucel",
@@ -31041,7 +31227,9 @@
   },
   {
     "substance": "Lisinopril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -31401,7 +31589,9 @@
   },
   {
     "substance": "Losartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -31745,7 +31935,9 @@
   },
   {
     "substance": "Macrogol",
-    "brand_names": [],
+    "brand_names": [
+      "Movicol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -31754,7 +31946,9 @@
   },
   {
     "substance": "Macrogol, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Movicol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -32581,15 +32775,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "S01BA08"
-  },
-  {
-    "substance": "Meerwasser",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "R01AX14"
   },
   {
     "substance": "Meerzwiebel",
@@ -34519,7 +34704,9 @@
   },
   {
     "substance": "Metoclopramid und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -34573,7 +34760,12 @@
   },
   {
     "substance": "Metoprolol und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -34618,7 +34810,9 @@
   },
   {
     "substance": "Metoprolol und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -35311,7 +35505,9 @@
   },
   {
     "substance": "Moexipril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -38396,15 +38592,6 @@
     "atc_code": "J01RA18"
   },
   {
-    "substance": "Öl",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "A06AG06"
-  },
-  {
     "substance": "Olaflur",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -38523,7 +38710,9 @@
   },
   {
     "substance": "Olmesartanmedoxomil, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -38550,7 +38739,9 @@
   },
   {
     "substance": "Olmesartanmedoxomil und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39535,7 +39726,12 @@
   },
   {
     "substance": "Oxycodon und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39544,7 +39740,10 @@
   },
   {
     "substance": "Oxycodon und Ibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39571,7 +39770,9 @@
   },
   {
     "substance": "Oxycodon und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39971,7 +40172,9 @@
   },
   {
     "substance": "Pantoprazol",
-    "brand_names": [],
+    "brand_names": [
+      "Pantozol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39980,7 +40183,9 @@
   },
   {
     "substance": "Pantoprazol, Amoxicillin, Clarithromycin und Metronidazol",
-    "brand_names": [],
+    "brand_names": [
+      "Pantozol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39989,7 +40194,9 @@
   },
   {
     "substance": "Pantoprazol, Amoxicillin und Clarithromycin",
-    "brand_names": [],
+    "brand_names": [
+      "Pantozol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -40034,7 +40241,9 @@
   },
   {
     "substance": "Paracetamol, Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -40043,7 +40252,9 @@
   },
   {
     "substance": "Paracetamol, Kombinationen exkl. Psycholeptika",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -40052,7 +40263,9 @@
   },
   {
     "substance": "Paracetamol, Kombinationen mit Coffein",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -40061,7 +40274,9 @@
   },
   {
     "substance": "Paracetamol, Kombinationen mit Psycholeptika",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -41638,7 +41853,10 @@
   },
   {
     "substance": "Phenprocoumon",
-    "brand_names": [],
+    "brand_names": [
+      "Marcumar",
+      "Falithrom"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -42747,7 +42965,9 @@
   },
   {
     "substance": "Polidocanol (Lauromacrogol 400)",
-    "brand_names": [],
+    "brand_names": [
+      "Movicol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -42756,7 +42976,9 @@
   },
   {
     "substance": "Polidocanol (Lauromacrogol 400), Kombinationen",
-    "brand_names": [],
+    "brand_names": [
+      "Movicol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -43264,7 +43486,12 @@
   },
   {
     "substance": "Pravastatin und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -44056,7 +44283,9 @@
   },
   {
     "substance": "Propranolol, Hydrochlorothiazid und Triamteren",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -44461,7 +44690,10 @@
   },
   {
     "substance": "Pseudoephedrin und Ibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -44830,7 +45062,9 @@
   },
   {
     "substance": "Quinapril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -45039,7 +45273,9 @@
   },
   {
     "substance": "Ramipril, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -45084,7 +45320,9 @@
   },
   {
     "substance": "Ramipril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -45624,7 +45862,12 @@
   },
   {
     "substance": "Retinol und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -46083,7 +46326,12 @@
   },
   {
     "substance": "Risedronsäure, Calcium und Colecalciferol, Sequenzialpräparate",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -46101,7 +46349,12 @@
   },
   {
     "substance": "Risedronsäure und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -46155,7 +46408,12 @@
   },
   {
     "substance": "Rivaroxaban und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -46463,7 +46721,12 @@
   },
   {
     "substance": "Rosuvastatin und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -47891,7 +48154,12 @@
   },
   {
     "substance": "Simvastatin, Acetylsalicylsäure und Ramipril",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -47900,7 +48168,12 @@
   },
   {
     "substance": "Simvastatin und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -48259,33 +48532,6 @@
     "atc_code": "R05DP01"
   },
   {
-    "substance": "Sonstige",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "A03AP11"
-  },
-  {
-    "substance": "Sonstige Blutprodukte",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX10"
-  },
-  {
-    "substance": "Sonstige Blutprodukte ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX40"
-  },
-  {
     "substance": "Sorafenib",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -48332,7 +48578,12 @@
   },
   {
     "substance": "Sotalol und Acetylsalicylsäure",
-    "brand_names": [],
+    "brand_names": [
+      "Aspirin Protect",
+      "Aspirin",
+      "ASS 100",
+      "ASS"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -48521,7 +48772,9 @@
   },
   {
     "substance": "Spironolacton und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -48709,15 +48962,6 @@
     "atc_code": "N03AX17"
   },
   {
-    "substance": "Stoffe ohne PZN",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V70XA03"
-  },
-  {
     "substance": "Streptoduocin",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -48809,7 +49053,12 @@
   },
   {
     "substance": "Strontiumranelat und Colecalciferol",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -50591,7 +50840,9 @@
   },
   {
     "substance": "Telmisartan, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -50618,7 +50869,9 @@
   },
   {
     "substance": "Telmisartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -51609,15 +51862,6 @@
     "atc_code": "B05AX02"
   },
   {
-    "substance": "Thrombozyten ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX42"
-  },
-  {
     "substance": "Thuja, Kombinationen",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -51997,7 +52241,9 @@
   },
   {
     "substance": "Timolol, Hydrochlorothiazid und Amilorid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -52847,7 +53093,9 @@
   },
   {
     "substance": "Tramadol und Paracetamol",
-    "brand_names": [],
+    "brand_names": [
+      "Benuron"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -54439,7 +54687,9 @@
   },
   {
     "substance": "Valsartan, Amlodipin und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -54475,7 +54725,9 @@
   },
   {
     "substance": "Valsartan und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -54709,7 +54961,9 @@
   },
   {
     "substance": "Verapamil, Hydrochlorothiazid und Triamteren",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -54736,7 +54990,9 @@
   },
   {
     "substance": "Verapamil und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -54772,7 +55028,10 @@
   },
   {
     "substance": "Verbandmittel mit Ibuprofen",
-    "brand_names": [],
+    "brand_names": [
+      "Ibuflam",
+      "Ibu"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -55311,15 +55570,6 @@
     "atc_code": "B05AX07"
   },
   {
-    "substance": "Vollblut ohne Pharmazentralnummer",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "B05AX47"
-  },
-  {
     "substance": "Von Willebrand-Faktor",
     "brand_names": [],
     "is_immunosuppressant": false,
@@ -55507,15 +55757,6 @@
     "therapy_pause_needed": "Keine",
     "immune_response_dead_vaccine": "Ausreichend",
     "atc_code": "D11AG50"
-  },
-  {
-    "substance": "Wasser",
-    "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "V07AB01"
   },
   {
     "substance": "Wasserstoffperoxid",
@@ -56158,7 +56399,9 @@
   },
   {
     "substance": "Zofenopril und Hydrochlorothiazid",
-    "brand_names": [],
+    "brand_names": [
+      "HCT"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -56194,7 +56437,12 @@
   },
   {
     "substance": "Zoledronsäure, Calcium und Colecalciferol, Sequenzialpräparate",
-    "brand_names": [],
+    "brand_names": [
+      "Cholecalciferol",
+      "Vitamin D3",
+      "Vigantol",
+      "Dekristol"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
