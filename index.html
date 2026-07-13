@@ -14,32 +14,34 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="brand">
-                <div class="divider"></div>
-                <div>
-                    <div class="app-title">Impf-Medikamenten Check</div>
-                    <div class="app-sub">KOMPATIBILITÄT MIT LEBENDIMPFUNGEN PRÜFEN</div>
+        <main class="app-container">
+            <header>
+                <div class="brand">
+                    <div class="divider"></div>
+                    <div>
+                        <div class="app-title">Impf-Medikamenten Check</div>
+                        <div class="app-sub">KOMPATIBILITÄT MIT LEBENDIMPFUNGEN PRÜFEN</div>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
-        <section class="search-section">
-            <div class="input-group">
-                <input type="text" id="drugInput" placeholder="Medikament oder Wirkstoff suchen..." autocomplete="off">
-                <div id="autocomplete-list" class="autocomplete-items"></div>
-            </div>
-        </section>
-
-        <section class="selected-drugs-section">
-            <h2>Ausgewählte Medikamente</h2>
-            <div id="selectedDrugsList" class="drugs-list">
-                <div id="empty-state" class="drug-card empty-state-card">
-                    <p>Noch keine Medikamente ausgewählt.</p>
+            <section class="search-section">
+                <div class="input-group">
+                    <input type="text" id="drugInput" placeholder="Medikament oder Wirkstoff suchen..." autocomplete="off">
+                    <div id="autocomplete-list" class="autocomplete-items"></div>
                 </div>
-            </div>
-        </section>
+            </section>
 
+            <section class="selected-drugs-section">
+                <h2>Ausgewählte Medikamente</h2>
+                <div id="selectedDrugsList" class="drugs-list">
+                    <div id="empty-state" class="drug-card empty-state-card">
+                        <p>Noch keine Medikamente ausgewählt.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
         <footer>
             <p>Created by Joscha Pocha</p>
         </footer>

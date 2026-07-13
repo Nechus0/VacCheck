@@ -30,19 +30,30 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 24px 20px 90px;
+    padding: 30px 20px 90px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 0 24px 30px;
     display: flex;
     flex-direction: column;
 }
 
 /* Header Match */
 header {
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 22px 24px;
-    margin-bottom: 22px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    padding: 24px 0;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,13 +100,14 @@ input[type="text"] {
     border-radius: var(--radius);
     font-family: var(--font);
     font-size: 16px;
-    background: #fff;
+    background: var(--grey-xl);
     outline: none;
-    transition: border-color 0.2s;
+    transition: all 0.2s;
 }
 
 input[type="text"]:focus {
     border-color: var(--black);
+    background: #fff;
 }
 
 input[type="text"]::placeholder {
@@ -160,12 +172,13 @@ input[type="text"]::placeholder {
 
 .empty-state-card {
     text-align: center;
-    border-left: 1px solid var(--line) !important;
-    background-color: #fff;
+    border: 1px dashed var(--line) !important;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 120px;
+    box-shadow: none !important;
 }
 
 .empty-state-card p {
