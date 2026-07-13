@@ -43573,11 +43573,13 @@
   {
     "substance": "Prednisolon",
     "brand_names": [],
-    "is_immunosuppressant": false,
-    "live_vaccine_allowed": "Ja (Standard)",
-    "therapy_pause_needed": "Keine",
-    "immune_response_dead_vaccine": "Ausreichend",
-    "atc_code": "A01AC04"
+    "is_immunosuppressant": true,
+    "live_vaccine_allowed": "Nein (> 20mg/d)",
+    "therapy_pause_needed": "> 2 Monate",
+    "immune_response_dead_vaccine": "Vermindert",
+    "atc_code": "A01AC04",
+    "drug_class": "Kortikosteroide",
+    "class_abstract": "Glukokortikoide hemmen die Aktivierung von T- und B-Zellen und reduzieren entzündliche Botenstoffe. Dadurch fehlt dem Körper die nötige Abwehr, um die abgeschwächten Viren eines Lebendimpfstoffs zu kontrollieren."
   },
   {
     "substance": "Prednisolon, Kombinationen",

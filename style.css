@@ -1,22 +1,15 @@
 :root {
-    /* Minimalist Corporate Palette */
-    --background: #f9f9f9;
-    --surface: #ffffff;
-    --text-main: #222222;
-    --text-muted: #666666;
-    --text-light: #999999;
-    --border: #e0e0e0;
-    --border-focus: #333333;
-    
-    /* Functional Colors Only */
-    --danger: #d32f2f;
-    --danger-light: #fbe9e7;
-    --safe: #2e7d32;
-    --safe-light: #e8f5e9;
-    
-    /* Sharp edges for corporate feel */
-    --radius: 0px; 
-    --shadow: none;
+  --black: #000;
+  --grey: #878787;
+  --grey-xl: #f4f4f4;
+  --line: #dcdcdc;
+  --text: #111;
+  --red: #d32f2f;
+  --red-bg: #fdecec;
+  --green: #2e7d32;
+  --green-bg: #e8f5e9;
+  --font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --radius: 6px;
 }
 
 * {
@@ -26,43 +19,62 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background-color: var(--background);
-    color: var(--text-main);
-    line-height: 1.6;
+    font-family: var(--font);
+    color: var(--text);
+    background: var(--grey-xl);
+    font-size: 15px;
+    line-height: 1.55;
     -webkit-font-smoothing: antialiased;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 24px 20px 90px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* Header Match */
 header {
-    text-align: center;
-    margin-bottom: 50px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 22px 24px;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header h1 {
-    color: var(--text-main);
-    font-size: 2.2rem;
-    font-weight: 300;
-    letter-spacing: -0.5px;
-    margin-bottom: 12px;
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 
-header p {
-    color: var(--text-muted);
-    font-weight: 400;
+.brand .divider {
+    width: 2px;
+    height: 30px;
+    background: var(--line);
+}
+
+.brand .app-title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.brand .app-sub {
+    font-size: 11px;
+    color: var(--grey);
+    letter-spacing: .06em;
+    text-transform: uppercase;
 }
 
 .search-section {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .input-group {
@@ -72,50 +84,52 @@ header p {
 
 input[type="text"] {
     width: 100%;
-    padding: 18px 24px;
-    font-size: 16px; /* 16px minimum prevents iOS zoom */
-    border: 1px solid var(--border);
+    padding: 14px 16px;
+    border: 1px solid var(--line);
     border-radius: var(--radius);
+    font-family: var(--font);
+    font-size: 16px;
+    background: #fff;
     outline: none;
     transition: border-color 0.2s;
-    font-family: inherit;
-    background: var(--surface);
-    color: var(--text-main);
 }
 
 input[type="text"]:focus {
-    border-color: var(--border-focus);
+    border-color: var(--black);
 }
 
 input[type="text"]::placeholder {
-    color: var(--text-light);
+    color: var(--grey);
 }
 
 .autocomplete-items {
     position: absolute;
-    border: 1px solid var(--border);
+    border: 1px solid var(--line);
     border-top: none;
     z-index: 99;
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--surface);
+    background-color: #fff;
     max-height: 350px;
     overflow-y: auto;
+    border-bottom-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 .autocomplete-item {
-    padding: 14px 24px;
+    padding: 12px 16px;
     cursor: pointer;
-    border-bottom: 1px solid var(--background);
-    font-size: 1rem;
-    color: var(--text-muted);
-    transition: background-color 0.15s, color 0.15s;
+    border-bottom: 1px solid var(--grey-xl);
+    font-size: 14px;
+    color: var(--grey);
 }
 
+.autocomplete-item.active-item,
 .autocomplete-item:hover {
-    background-color: var(--background);
-    color: var(--text-main);
+    background-color: var(--grey-xl);
+    color: var(--text);
 }
 
 .autocomplete-item:last-child {
@@ -123,8 +137,8 @@ input[type="text"]::placeholder {
 }
 
 .autocomplete-item strong {
-    color: var(--text-main);
-    font-weight: 600;
+    color: var(--text);
+    font-weight: 700;
 }
 
 .selected-drugs-section {
@@ -132,54 +146,52 @@ input[type="text"]::placeholder {
 }
 
 .selected-drugs-section h2 {
-    margin-bottom: 24px;
-    font-size: 1.2rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: var(--text-muted);
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 8px;
+    margin: 0 0 16px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
 }
 
 .drugs-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
 }
 
 .empty-state {
-    color: var(--text-light);
+    color: var(--grey);
     text-align: center;
     padding: 40px 20px;
     background: transparent;
-    border: 1px dashed var(--border);
+    font-size: 13px;
 }
 
+/* Card Match */
 .drug-card {
-    background: var(--surface);
-    padding: 24px;
-    border: 1px solid var(--border);
-    border-left: 6px solid var(--safe);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 22px 24px;
+    border-left: 6px solid var(--green);
     position: relative;
-    animation: fadeIn 0.3s ease-in-out;
+    animation: fadeIn 0.2s ease-in-out;
 }
 
 .drug-card.immunosuppressant {
-    border-color: var(--danger);
+    border-color: var(--red);
     border-left-width: 6px;
-    background-color: var(--surface); /* Keep surface white for cleanliness */
+    background-color: var(--red-bg);
 }
 
-/* Subtle background tint for the details area instead of whole card */
+/* No secondary tint needed since card is already red-bg */
 .drug-card.immunosuppressant .drug-details {
-    background-color: var(--danger-light);
-    border: 1px solid rgba(211, 47, 47, 0.2);
+    background-color: transparent;
+    border: none;
 }
 
 .drug-card:not(.immunosuppressant) .drug-details {
-    background-color: var(--safe-light);
-    border: 1px solid rgba(46, 125, 50, 0.2);
+    background-color: transparent;
+    border: none;
 }
 
 .drug-header {
@@ -190,38 +202,38 @@ input[type="text"]::placeholder {
 }
 
 .drug-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-main);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
 }
 
 .drug-brands {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    margin-top: 6px;
+    font-size: 12.5px;
+    color: var(--grey);
+    margin-top: 4px;
 }
 
 .remove-btn {
     background: none;
     border: none;
-    color: var(--text-light);
+    color: var(--grey);
     cursor: pointer;
-    font-size: 1.8rem;
+    font-size: 20px;
     line-height: 0.8;
     padding: 0 0 10px 10px;
     transition: color 0.2s;
 }
 
 .remove-btn:hover {
-    color: var(--text-main);
+    color: var(--red);
 }
 
 .drug-details {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-    font-size: 0.9rem;
-    padding: 16px;
+    font-size: 13px;
+    padding: 0;
 }
 
 .detail-item {
@@ -231,35 +243,35 @@ input[type="text"]::placeholder {
 
 .detail-label {
     font-weight: 600;
-    color: var(--text-main);
-    font-size: 0.75rem;
+    color: var(--text);
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .warning-badge {
     display: inline-block;
-    padding: 4px 8px;
-    background: var(--danger);
-    color: white;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-left: 12px;
+    padding: 3px 9px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+    background: var(--red);
+    color: #fff;
+    margin-left: 8px;
     vertical-align: middle;
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align: center;
     padding-top: 20px;
 }
 
 footer p {
     font-size: 11px;
-    color: var(--text-light);
+    color: var(--grey);
 }
 
 @keyframes fadeIn {
@@ -270,19 +282,24 @@ footer p {
 /* Mobile Responsiveness */
 @media (max-width: 600px) {
     .container {
-        padding: 20px 16px;
+        padding: 12px 12px;
     }
     
-    header h1 {
-        font-size: 1.8rem;
+    header {
+        padding: 16px 16px;
+        margin-bottom: 16px;
+    }
+
+    .drug-card {
+        padding: 16px;
     }
     
     .drug-details {
-        grid-template-columns: 1fr; /* Stack columns on small screens */
+        grid-template-columns: 1fr;
         gap: 12px;
     }
     
     .detail-item[style*="grid-column: span 2"] {
-        grid-column: span 1 !important; /* Override inline span 2 */
+        grid-column: span 1 !important;
     }
 }

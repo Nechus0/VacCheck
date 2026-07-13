@@ -17,8 +17,11 @@ fetch('app_drugs_db.json')
 
 // Event listeners for autocomplete
 inputElement.addEventListener('input', function() {
-    const val = this.value;
+    let val = this.value;
+    
     closeAllLists();
+    currentFocus = -1;
+    
     if (!val) { return false; }
 
     let count = 0;
@@ -99,6 +102,43 @@ inputElement.addEventListener('input', function() {
         listContainer.appendChild(item);
     }
 });
+
+let currentFocus = -1;
+
+inputElement.addEventListener('keydown', function(e) {
+    const listContainer = document.getElementById('autocomplete-list');
+    if (!listContainer) return;
+    
+    let items = listContainer.getElementsByClassName('autocomplete-item');
+    if (e.key === 'ArrowDown') {
+        currentFocus++;
+        addActive(items);
+    } else if (e.key === 'ArrowUp') {
+        currentFocus--;
+        addActive(items);
+    } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (currentFocus > -1) {
+            if (items) items[currentFocus].click();
+        } else if (items.length > 0) {
+            items[0].click(); // Select first item if nothing is focused
+        }
+    }
+});
+
+function addActive(items) {
+    if (!items) return false;
+    removeActive(items);
+    if (currentFocus >= items.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (items.length - 1);
+    items[currentFocus].classList.add('active-item');
+}
+
+function removeActive(items) {
+    for (let i = 0; i < items.length; i++) {
+        items[i].classList.remove('active-item');
+    }
+}
 
 function closeAllLists(elmnt) {
     const x = document.getElementsByClassName('autocomplete-items');
