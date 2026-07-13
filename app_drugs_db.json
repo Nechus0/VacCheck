@@ -1153,8 +1153,9 @@
   {
     "substance": "Doxycyclin",
     "brand_names": [
-      "Doxycyclin",
-      "Vibramycin"
+      "Vibramycin",
+      "Supracyclin",
+      "Doxycyclin"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja",
@@ -1544,9 +1545,11 @@
     "substance": "Acetylsalicylsäure",
     "brand_names": [
       "Aspirin Protect",
-      "Aspirin",
       "ASS 100",
-      "ASS"
+      "ASS",
+      "Godamed",
+      "Aspirin",
+      "HerzASS"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
@@ -2195,7 +2198,10 @@
   },
   {
     "substance": "Allopurinol",
-    "brand_names": [],
+    "brand_names": [
+      "Urikoliz",
+      "Zyloric"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -2944,7 +2950,9 @@
   },
   {
     "substance": "Amlodipin",
-    "brand_names": [],
+    "brand_names": [
+      "Norvasc"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -3025,7 +3033,10 @@
   },
   {
     "substance": "Amoxicillin",
-    "brand_names": [],
+    "brand_names": [
+      "Infectomox",
+      "Amoxypen"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -3450,7 +3461,9 @@
   },
   {
     "substance": "Apixaban",
-    "brand_names": [],
+    "brand_names": [
+      "Eliquis"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -3922,7 +3935,9 @@
   },
   {
     "substance": "Atorvastatin",
-    "brand_names": [],
+    "brand_names": [
+      "Sortis"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -4219,7 +4234,10 @@
   },
   {
     "substance": "Azithromycin",
-    "brand_names": [],
+    "brand_names": [
+      "Ultreon",
+      "Zithromax"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -5532,7 +5550,10 @@
   },
   {
     "substance": "Bisoprolol",
-    "brand_names": [],
+    "brand_names": [
+      "Concor",
+      "Bisohexal"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -6983,7 +7004,10 @@
   },
   {
     "substance": "Candesartan",
-    "brand_names": [],
+    "brand_names": [
+      "Atacand",
+      "Blopress"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -7970,7 +7994,9 @@
   },
   {
     "substance": "Cefuroxim",
-    "brand_names": [],
+    "brand_names": [
+      "Elobact"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -8168,7 +8194,10 @@
   },
   {
     "substance": "Cetirizin",
-    "brand_names": [],
+    "brand_names": [
+      "Cetadolor",
+      "Zyrtec"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9097,7 +9126,9 @@
   },
   {
     "substance": "Ciprofloxacin",
-    "brand_names": [],
+    "brand_names": [
+      "Ciprobay"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9133,7 +9164,9 @@
   },
   {
     "substance": "Citalopram",
-    "brand_names": [],
+    "brand_names": [
+      "Cipramil"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9169,7 +9202,9 @@
   },
   {
     "substance": "Clarithromycin",
-    "brand_names": [],
+    "brand_names": [
+      "Klacid"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -9268,7 +9303,9 @@
   },
   {
     "substance": "Clindamycin",
-    "brand_names": [],
+    "brand_names": [
+      "Sobelin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -10387,7 +10424,9 @@
   },
   {
     "substance": "Dabigatranetexilat",
-    "brand_names": [],
+    "brand_names": [
+      "Pradaxa"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -11061,7 +11100,11 @@
   },
   {
     "substance": "Desloratadin",
-    "brand_names": [],
+    "brand_names": [
+      "Aerius",
+      "Lorano",
+      "Lisino"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -11133,7 +11176,10 @@
   },
   {
     "substance": "Desvenlafaxin",
-    "brand_names": [],
+    "brand_names": [
+      "Trevalor",
+      "Efectin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -11227,7 +11273,9 @@
     "substance": "Dexibuprofen",
     "brand_names": [
       "Ibuflam",
-      "Ibu"
+      "Dolormin",
+      "Ibu",
+      "Nurofen"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
@@ -11544,7 +11592,8 @@
   {
     "substance": "Diclofenac",
     "brand_names": [
-      "Voltaren"
+      "Voltaren",
+      "Diclac"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
@@ -12852,7 +12901,10 @@
   },
   {
     "substance": "Doxycyclin mit Ambroxol",
-    "brand_names": [],
+    "brand_names": [
+      "Vibramycin",
+      "Supracyclin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -12978,7 +13030,10 @@
   },
   {
     "substance": "Duloxetin",
-    "brand_names": [],
+    "brand_names": [
+      "Cymbalta",
+      "Yentreve"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -13158,7 +13213,9 @@
   },
   {
     "substance": "Edoxaban",
-    "brand_names": [],
+    "brand_names": [
+      "Lixiana"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -14539,7 +14596,10 @@
   },
   {
     "substance": "Escitalopram",
-    "brand_names": [],
+    "brand_names": [
+      "Cipramil",
+      "Cipralex"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -14584,7 +14644,10 @@
   },
   {
     "substance": "Esomeprazol",
-    "brand_names": [],
+    "brand_names": [
+      "Gastroloc",
+      "Antra"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -15801,7 +15864,9 @@
   },
   {
     "substance": "Fexofenadin",
-    "brand_names": [],
+    "brand_names": [
+      "Telfast"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -16970,7 +17035,9 @@
   },
   {
     "substance": "Furosemid",
-    "brand_names": [],
+    "brand_names": [
+      "Lasix"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -17015,7 +17082,9 @@
   },
   {
     "substance": "Gabapentin",
-    "brand_names": [],
+    "brand_names": [
+      "Neurontin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -18769,7 +18838,8 @@
   {
     "substance": "Hydrochlorothiazid",
     "brand_names": [
-      "HCT"
+      "HCT",
+      "Esidrix"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
@@ -22135,7 +22205,9 @@
   },
   {
     "substance": "Levamlodipin",
-    "brand_names": [],
+    "brand_names": [
+      "Norvasc"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -22225,7 +22297,11 @@
   },
   {
     "substance": "Levocetirizin",
-    "brand_names": [],
+    "brand_names": [
+      "Cetadolor",
+      "Zyrtec",
+      "Xyzall"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -22351,7 +22427,10 @@
   },
   {
     "substance": "Levosalbutamol",
-    "brand_names": [],
+    "brand_names": [
+      "Sultanol",
+      "Bronchospray"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -22378,7 +22457,10 @@
   },
   {
     "substance": "Levothyroxin",
-    "brand_names": [],
+    "brand_names": [
+      "L-Thyroxin",
+      "Euthyrox"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -22618,7 +22700,10 @@
   },
   {
     "substance": "Lisinopril",
-    "brand_names": [],
+    "brand_names": [
+      "Zestril",
+      "Acerbon"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -22861,7 +22946,10 @@
   },
   {
     "substance": "Loratadin",
-    "brand_names": [],
+    "brand_names": [
+      "Lorano",
+      "Lisino"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -24487,7 +24575,11 @@
   },
   {
     "substance": "Metamizol",
-    "brand_names": [],
+    "brand_names": [
+      "Novaminsulfon",
+      "Berlosin",
+      "Novalgin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -24550,7 +24642,11 @@
   },
   {
     "substance": "Metformin",
-    "brand_names": [],
+    "brand_names": [
+      "Siofor",
+      "Mescorit",
+      "Glucophage"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -24910,7 +25006,9 @@
   },
   {
     "substance": "Methylprednisolon",
-    "brand_names": [],
+    "brand_names": [
+      "Decortin H"
+    ],
     "is_immunosuppressant": true,
     "live_vaccine_allowed": "Nein (> 20mg/d)",
     "therapy_pause_needed": "> 2 Monate",
@@ -24921,7 +25019,9 @@
   },
   {
     "substance": "Methylprednisolonaceponat",
-    "brand_names": [],
+    "brand_names": [
+      "Decortin H"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -24930,7 +25030,9 @@
   },
   {
     "substance": "Methylprednisolon-Depot",
-    "brand_names": [],
+    "brand_names": [
+      "Decortin H"
+    ],
     "is_immunosuppressant": true,
     "live_vaccine_allowed": "Nein (> 20mg/d)",
     "therapy_pause_needed": "> 2 Monate",
@@ -25130,7 +25232,10 @@
   },
   {
     "substance": "Metoprolol",
-    "brand_names": [],
+    "brand_names": [
+      "Beloc",
+      "Metohexal"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -25508,7 +25613,9 @@
   },
   {
     "substance": "Mirtazapin",
-    "brand_names": [],
+    "brand_names": [
+      "Remergil"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -28225,7 +28332,10 @@
   },
   {
     "substance": "Omeprazol",
-    "brand_names": [],
+    "brand_names": [
+      "Gastroloc",
+      "Antra"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -29177,7 +29287,8 @@
   {
     "substance": "Pantoprazol",
     "brand_names": [
-      "Pantozol"
+      "Pantozol",
+      "Rifun"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
@@ -31632,7 +31743,9 @@
   },
   {
     "substance": "Prednisolon",
-    "brand_names": [],
+    "brand_names": [
+      "Decortin H"
+    ],
     "is_immunosuppressant": true,
     "live_vaccine_allowed": "Nein (> 20mg/d)",
     "therapy_pause_needed": "> 2 Monate",
@@ -31643,7 +31756,9 @@
   },
   {
     "substance": "Prednisolon-Depot",
-    "brand_names": [],
+    "brand_names": [
+      "Decortin H"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -31661,7 +31776,9 @@
   },
   {
     "substance": "Pregabalin",
-    "brand_names": [],
+    "brand_names": [
+      "Lyrica"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -32588,7 +32705,9 @@
   },
   {
     "substance": "Quetiapin",
-    "brand_names": [],
+    "brand_names": [
+      "Seroquel"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -32752,7 +32871,10 @@
   },
   {
     "substance": "Ramipril",
-    "brand_names": [],
+    "brand_names": [
+      "Delix",
+      "Vesdil"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -33499,7 +33621,9 @@
   },
   {
     "substance": "Risperidon",
-    "brand_names": [],
+    "brand_names": [
+      "Risperdal"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -33535,7 +33659,9 @@
   },
   {
     "substance": "Rivaroxaban",
-    "brand_names": [],
+    "brand_names": [
+      "Xarelto"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -33960,7 +34086,10 @@
   },
   {
     "substance": "Salbutamol",
-    "brand_names": [],
+    "brand_names": [
+      "Sultanol",
+      "Bronchospray"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -34531,7 +34660,10 @@
   },
   {
     "substance": "Sertralin",
-    "brand_names": [],
+    "brand_names": [
+      "Zoloft",
+      "Gladem"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -34731,7 +34863,10 @@
   },
   {
     "substance": "Simvastatin",
-    "brand_names": [],
+    "brand_names": [
+      "Denan",
+      "Zocor"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -38382,7 +38517,10 @@
   },
   {
     "substance": "Torasemid",
-    "brand_names": [],
+    "brand_names": [
+      "Torem",
+      "Unat"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39762,7 +39900,10 @@
   },
   {
     "substance": "Valsartan",
-    "brand_names": [],
+    "brand_names": [
+      "Diovan",
+      "Provas"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39924,7 +40065,10 @@
   },
   {
     "substance": "Venlafaxin",
-    "brand_names": [],
+    "brand_names": [
+      "Trevalor",
+      "Efectin"
+    ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",
     "therapy_pause_needed": "Keine",
@@ -39989,7 +40133,9 @@
     "substance": "Verbandmittel mit Ibuprofen",
     "brand_names": [
       "Ibuflam",
-      "Ibu"
+      "Dolormin",
+      "Ibu",
+      "Nurofen"
     ],
     "is_immunosuppressant": false,
     "live_vaccine_allowed": "Ja (Standard)",

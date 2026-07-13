@@ -33,7 +33,10 @@
             </section>
 
             <section class="selected-drugs-section">
-                <h2>Ausgewählte Medikamente</h2>
+                <div class="selected-header">
+                    <h2>Ausgewählte Medikamente</h2>
+                    <button id="clear-list-btn" class="clear-btn" onclick="clearList()" style="display: none;">Liste leeren</button>
+                </div>
                 <div id="selectedDrugsList" class="drugs-list">
                     <div id="empty-state" class="drug-card empty-state-card">
                         <p>Noch keine Medikamente ausgewählt.</p>

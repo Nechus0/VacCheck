@@ -167,12 +167,20 @@ document.addEventListener('click', function (e) {
 });
 
 function addDrug(drug) {
+    if (selectedDrugs.length >= 10) {
+        return;
+    }
     // Prevent duplicates
     if (selectedDrugs.find(d => d.substance === drug.substance)) {
         return;
     }
     
     selectedDrugs.push(drug);
+    renderSelectedDrugs();
+}
+
+function clearList() {
+    selectedDrugs = [];
     renderSelectedDrugs();
 }
 
@@ -185,7 +193,9 @@ function removeDrug(substance) {
 }
 
 function renderSelectedDrugs() {
+    const clearBtn = document.getElementById('clear-list-btn');
     if (selectedDrugs.length === 0) {
+        if (clearBtn) clearBtn.style.display = 'none';
         selectedDrugsList.innerHTML = `
             <div id="empty-state" class="drug-card empty-state-card">
                 <p>Noch keine Medikamente ausgewählt.</p>
@@ -194,6 +204,7 @@ function renderSelectedDrugs() {
         return;
     }
 
+    if (clearBtn) clearBtn.style.display = 'block';
     selectedDrugsList.innerHTML = '';
     
     selectedDrugs.forEach(drug => {
@@ -264,4 +275,11 @@ function renderSelectedDrugs() {
         
         selectedDrugsList.appendChild(card);
     });
+
+    if (selectedDrugs.length >= 10) {
+        const warningCard = document.createElement('div');
+        warningCard.className = 'warning-card';
+        warningCard.innerText = 'Maximale Einträge erreicht (10)';
+        selectedDrugsList.appendChild(warningCard);
+    }
 }
