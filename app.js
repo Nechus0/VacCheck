@@ -1,0 +1,164 @@
+let drugsDatabase = [];
+const selectedDrugs = [];
+
+// DOM Elements
+const inputElement = document.getElementById('drugInput');
+const autocompleteList = document.getElementById('autocomplete-list');
+const selectedDrugsList = document.getElementById('selectedDrugsList');
+
+// Fetch the drug database
+fetch('app_drugs_db.json')
+    .then(response => response.json())
+    .then(data => {
+        drugsDatabase = data;
+        console.log(`Loaded ${drugsDatabase.length} drugs.`);
+    })
+    .catch(error => console.error('Error loading drug database:', error));
+
+// Event listeners for autocomplete
+inputElement.addEventListener('input', function() {
+    const val = this.value;
+    closeAllLists();
+    if (!val) { return false; }
+
+    let count = 0;
+    
+    // Create new list container
+    const listContainer = document.createElement('div');
+    listContainer.setAttribute('class', 'autocomplete-items');
+    this.parentNode.appendChild(listContainer);
+
+    for (let i = 0; i < drugsDatabase.length; i++) {
+        const drug = drugsDatabase[i];
+        
+        // Search in substance and brand names
+        let matchText = '';
+        if (drug.substance.toLowerCase().includes(val.toLowerCase())) {
+            matchText = drug.substance;
+        } else {
+            const matchedBrand = drug.brand_names.find(b => b.toLowerCase().includes(val.toLowerCase()));
+            if (matchedBrand) {
+                matchText = `${matchedBrand} (${drug.substance})`;
+            }
+        }
+
+        if (matchText) {
+            count++;
+            const item = document.createElement('div');
+            item.setAttribute('class', 'autocomplete-item');
+            
+            // Highlight matching part
+            const regex = new RegExp(`(${val})`, 'gi');
+            item.innerHTML = matchText.replace(regex, "<strong>$1</strong>");
+            
+            if(drug.is_immunosuppressant) {
+                item.innerHTML += ' <span style="color:red; font-size:12px;">(Immunsuppressivum)</span>';
+            }
+
+            item.addEventListener('click', function() {
+                addDrug(drug);
+                inputElement.value = '';
+                closeAllLists();
+            });
+
+            listContainer.appendChild(item);
+            
+            // Limit to 10 results
+            if(count >= 10) break;
+        }
+    }
+});
+
+function closeAllLists(elmnt) {
+    const x = document.getElementsByClassName('autocomplete-items');
+    for (let i = 0; i < x.length; i++) {
+        if (elmnt != x[i] && elmnt != inputElement) {
+            x[i].parentNode.removeChild(x[i]);
+        }
+    }
+}
+
+document.addEventListener('click', function (e) {
+    closeAllLists(e.target);
+});
+
+function addDrug(drug) {
+    // Prevent duplicates
+    if (selectedDrugs.find(d => d.substance === drug.substance)) {
+        return;
+    }
+    
+    selectedDrugs.push(drug);
+    renderSelectedDrugs();
+}
+
+function removeDrug(substance) {
+    const index = selectedDrugs.findIndex(d => d.substance === substance);
+    if (index > -1) {
+        selectedDrugs.splice(index, 1);
+        renderSelectedDrugs();
+    }
+}
+
+function renderSelectedDrugs() {
+    if (selectedDrugs.length === 0) {
+        selectedDrugsList.innerHTML = '<p class="empty-state">Noch keine Medikamente ausgewählt.</p>';
+        return;
+    }
+
+    selectedDrugsList.innerHTML = '';
+    
+    selectedDrugs.forEach(drug => {
+        const card = document.createElement('div');
+        card.className = `drug-card ${drug.is_immunosuppressant ? 'immunosuppressant' : ''}`;
+        
+        let brandsHTML = '';
+        if (drug.brand_names && drug.brand_names.length > 0) {
+            brandsHTML = `<div class="drug-brands">Handelsnamen: ${drug.brand_names.join(', ')}</div>`;
+        }
+
+        let detailsHTML = '';
+        if (drug.is_immunosuppressant) {
+            detailsHTML = `
+                <div class="drug-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Lebendimpfung</div>
+                        <div>${drug.live_vaccine_allowed}</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Therapiepause (Lebendimpf.)</div>
+                        <div>${drug.therapy_pause_needed}</div>
+                    </div>
+                    <div class="detail-item" style="grid-column: span 2;">
+                        <div class="detail-label">Immunantwort auf Totimpfstoffe</div>
+                        <div>${drug.immune_response_dead_vaccine}</div>
+                    </div>
+                </div>
+            `;
+        } else {
+            detailsHTML = `
+                <div class="drug-details">
+                    <div class="detail-item" style="grid-column: span 2;">
+                        <div class="detail-label">Status</div>
+                        <div style="color: var(--safe); font-weight:600;">Keine bekannten Kontraindikationen für Lebendimpfungen aus der DTG 2026 Leitlinie.</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        const warningBadge = drug.is_immunosuppressant ? '<span class="warning-badge">Immunsuppressivum</span>' : '';
+
+        card.innerHTML = `
+            <div class="drug-header">
+                <div>
+                    <div class="drug-title">${drug.substance} ${warningBadge}</div>
+                    ${brandsHTML}
+                </div>
+                <button class="remove-btn" onclick="removeDrug('${drug.substance}')">&times;</button>
+            </div>
+            ${detailsHTML}
+        `;
+        
+        selectedDrugsList.appendChild(card);
+    });
+}
